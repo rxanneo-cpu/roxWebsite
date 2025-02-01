@@ -119,3 +119,29 @@ footer p{
     width:60%;
   }
 }
+
+
+@media (max-width: 375px){
+  nav{
+    height:5rem;
+  }
+  nav img{
+    width:auto;
+    height:20vw;
+  }
+  .nav-links ul li a{
+    font-size: 5vw;
+  }
+  section{
+    padding: 25vw 2.5vw;
+  }
+  h1{
+    font-size:10vw;
+  }
+  p{
+    font-size:6vw;
+  }
+  img{
+    width:80%;
+  }
+}
